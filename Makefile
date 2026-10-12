@@ -16,4 +16,4 @@ run-local:
 	go run main.go start
 
 compile:
-	env GO111MODULE=on CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o build/wallet main.go
+	env GO111MODULE=on CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o build/disburseorder-svc main.go
